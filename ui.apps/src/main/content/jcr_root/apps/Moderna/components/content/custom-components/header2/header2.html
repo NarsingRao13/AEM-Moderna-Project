@@ -1,0 +1,50 @@
+
+
+<sly data-sly-use.obj="com.moderna.core.models.Header"></sly>
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center header-transparent ">
+   <div class="container d-flex align-items-center justify-content-between">
+      <div class="logo">
+         <h1><a href="#">${obj.logoTitle}</a></h1>
+         <!-- Uncomment below if you prefer to use an image logo -->
+         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <!-- ======= Navigation Bar ======= -->
+      <nav id="navbar" class="navbar" >
+      	<!-- ======= Navigation Titles ======= -->
+         <ul data-sly-list.l="${obj.navigationList}">
+
+            <sly data-sly-test.if = "${l.navType == 'normal'}">
+               <li><a class="${lList.first?'active ' : ''}" href="${l.navPath}.html">${l.navTitle}</a></li>
+            </sly>
+
+            <sly data-sly-test.if = "${l.navType == 'dropDown'}">
+               <li class="dropdown">
+                  <a href="#"><span>${l.navTitle}</span> <i class="bi bi-chevron-down"></i></a>
+				  <!-- ======= Drop Down Navigation Titles======= -->
+				  <ul data-sly-list.dl = "${l.dropDownListData}">
+
+					 <sly data-sly-test.if = "${dl.deepNavType == 'normal'}">
+                        <li><a href="${dl.dropDownPath}.html">${dl.dropDownTitle}</a></li>
+                     </sly>
+
+                     <li data-sly-test = "${dl.deepNavType == 'deepDropDown'}" class="dropdown">
+                        <a href="#"><span>${dl.dropDownTitle}</span> <i class="bi bi-chevron-right"></i></a>
+					   <!-- ======= Deep Drop Down Navigation Titles ======= -->
+                       <ul data-sly-list.ddl = "${dl.deepList}">
+                           <li><a href="${ddl.deepDropDownPath}.html">${ddl.deepDropDownTitle}</a></li>
+                        </ul>
+                     </li>
+
+                  </ul>
+               </li>
+            </sly>
+
+         </ul>
+      </nav>
+      <!-- .navbar -->
+   </div>
+</header>
+<!-- End Header -->
+

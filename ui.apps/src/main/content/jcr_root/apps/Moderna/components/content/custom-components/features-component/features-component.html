@@ -1,0 +1,16 @@
+
+<!-- ======= Features Section ======= -->
+<section class="features">
+   <div class="container">
+      <sly data-sly-test.if="${properties.featureType == 'image-text-list'}">
+         <div data-sly-resource=
+            "${'feature1' @resourceType='Moderna/components/content/custom-components/Features-Componets/features-1'}"></div>
+      </sly>
+      <sly data-sly-test.else="${properties.featureType == 'text-image'}">
+         <div data-sly-resource=
+            "${'feature2' @resourceType='Moderna/components/content/custom-components/Features-Componets/features-2'}"></div>
+      </sly>
+   </div>
+</section>
+<!-- End Features Section -->
+

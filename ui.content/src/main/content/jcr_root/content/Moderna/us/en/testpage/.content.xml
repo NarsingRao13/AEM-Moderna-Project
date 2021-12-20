@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-04-29T17:55:56.292+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Moderna/settings/wcm/templates/testingtemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="testpage"
+        jcr:uuid="baa409a2-3607-46d8-a2d3-ce64d40f2295"
+        sling:resourceType="Moderna/components/structure/basepage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:created="{Date}2021-04-27T13:02:36.737+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-27T13:02:51.757+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header1
+                    jcr:created="{Date}2021-04-27T13:04:59.018+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-29T17:55:56.285+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/header1"
+                    logoTitle="Moderna">
+                    <dropdown
+                        jcr:lastModified="{Date}2021-04-27T18:09:08.136+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="Moderna/components/content/custom-components/drop-down-componet"
+                        dropDownTitle="Drop Down">
+                        <deepDropdown
+                            jcr:lastModified="{Date}2021-04-27T18:10:56.012+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="Moderna/components/content/custom-components/deep-drop-down-componet">
+                            <deepDropDownList jcr:primaryType="nt:unstructured">
+                                <item0
+                                    jcr:primaryType="nt:unstructured"
+                                    navDeepDropDownPath="/content/Moderna/us/en/drop-down/deep-drop-down/deep-drop-down1"
+                                    navDeepDropDownTitle="Deep Drop Down 1"/>
+                                <item1
+                                    jcr:primaryType="nt:unstructured"
+                                    navDeepDropDownPath="/content/Moderna/us/en/drop-down/deep-drop-down/deep-drop-down2"
+                                    navDeepDropDownTitle="Deep Drop Down 2"/>
+                                <item2
+                                    jcr:primaryType="nt:unstructured"
+                                    navDeepDropDownPath="/content/Moderna/us/en/drop-down/deep-drop-down/deep-drop-down3"
+                                    navDeepDropDownTitle="Deep Drop Down 3"/>
+                                <item3
+                                    jcr:primaryType="nt:unstructured"
+                                    navDeepDropDownPath="/content/Moderna/us/en/drop-down/deep-drop-down/deep-drop-down4"
+                                    navDeepDropDownTitle="Deep Drop Down 4"/>
+                                <item4
+                                    jcr:primaryType="nt:unstructured"
+                                    navDeepDropDownPath="/content/Moderna/us/en/drop-down/deep-drop-down/deep-drop-down5"
+                                    navDeepDropDownTitle="Deep Drop Down 5"/>
+                            </deepDropDownList>
+                        </deepDropdown>
+                        <dropDownList jcr:primaryType="nt:unstructured">
+                            <item0
+                                jcr:primaryType="nt:unstructured"
+                                navDropDownPath="/content/Moderna/us/en/drop-down/drop-down1"
+                                navDropDownTitle="Drop Down 1"
+                                navDropDownType="normal"/>
+                            <item1
+                                jcr:primaryType="nt:unstructured"
+                                navDropDownPath="/content/Moderna/us/en/drop-down/deep-drop-down"
+                                navDropDownTitle="Deep Drop Down"
+                                navDropDownType="deepDropDown"/>
+                            <item2
+                                jcr:primaryType="nt:unstructured"
+                                navDropDownPath="/content/Moderna/us/en/drop-down/drop-down2"
+                                navDropDownTitle="Drop Down 2"
+                                navDropDownType="normal"/>
+                            <item3
+                                jcr:primaryType="nt:unstructured"
+                                navDropDownPath="/content/Moderna/us/en/drop-down/drop-down3"
+                                navDropDownTitle="Drop Down 3"
+                                navDropDownType="normal"/>
+                            <item4
+                                jcr:primaryType="nt:unstructured"
+                                navDropDownPath="/content/Moderna/us/en/drop-down/drop-down4"
+                                navDropDownTitle="Drop Down 4"
+                                navDropDownType="normal"/>
+                        </dropDownList>
+                    </dropdown>
+                    <headerMultiField jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            navPath="/content/Moderna/us/en/Index-Page"
+                            navTitle="Home1"
+                            navType="normal"/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            navPath="/content/Moderna/us/en/about"
+                            navTitle="About"
+                            navType="normal"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            navPath="/content/Moderna/us/en/service"
+                            navTitle="Service"
+                            navType="normal"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            navPath="/content/Moderna/us/en/portfolio"
+                            navTitle="PortFolio"
+                            navType="normal"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            navPath="/content/Moderna/us/en/team"
+                            navTitle="Team"
+                            navType="normal"/>
+                        <item5
+                            jcr:primaryType="nt:unstructured"
+                            navPath="/content/Moderna/us/en/blog"
+                            navTitle="Blog"
+                            navType="normal"/>
+                        <item6
+                            jcr:primaryType="nt:unstructured"
+                            navPath="/content/Moderna/us/en/drop-down"
+                            navTitle="Drop Down"
+                            navType="dropDown"/>
+                        <item7
+                            jcr:primaryType="nt:unstructured"
+                            navPath="/content/Moderna/us/en/contact-us"
+                            navTitle="Contact Us"
+                            navType="normal"/>
+                    </headerMultiField>
+                </header1>
+                <footer
+                    jcr:created="{Date}2021-04-27T13:05:19.042+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-27T13:05:55.522+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/footer"
+                    link1="iknj"
+                    link2="gtefhj"
+                    link3="gtefhj"
+                    link4="gtefhj"
+                    link5="gtefhj"
+                    linksTitle="gtefhj"
+                    newsletterDescription="itdghnj"
+                    newsletterTitle="berjhbefj"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

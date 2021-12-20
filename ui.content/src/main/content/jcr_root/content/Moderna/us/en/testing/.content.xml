@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-05-15T17:46:59.160+05:30"
+        cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2021-05-26T17:14:04.979+05:30"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Deactivate"
+        cq:template="/conf/Moderna/settings/wcm/templates/basetemplate"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="testing"
+        jcr:uuid="eefbfbdd-cefa-4293-8d4a-5fcbdacf3263"
+        sling:resourceType="Moderna/components/structure/basepage"
+        Attri="heyy">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:lastModified="{Date}2021-04-20T13:48:50.704+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <index_page
+                    jcr:created="{Date}2021-04-20T18:53:08.052+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-20T18:53:08.052+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/index-page"/>
+            </responsivegrid>
+            <responsivegrid_360545440
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <testing
+                    jcr:created="{Date}2021-04-24T11:45:44.437+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-27T11:03:48.757+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/testing"
+                    selectDelay="100"
+                    selectIconBgColor="pink"
+                    selectServiceIcon="bx bx-tachometer"
+                    serviceDescription="vdfjhb"
+                    serviceTitle="gewdhjhb"/>
+                <testing_conditionbas
+                    jcr:created="{Date}2021-04-26T16:40:18.082+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-29T18:05:54.309+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/testing-conditionbased-dialog-component"
+                    featureType="feature-1"
+                    number="6456541"
+                    title="dfjdh jbfhje r"/>
+                <feature_heading
+                    jcr:created="{Date}2021-04-27T10:49:33.429+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-28T20:23:02.427+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/feature-heading"
+                    description="fdjgekjfkeferf erkfhuerkf owrijerofjnovertoejigvoeigjot vfvdjhfbj"
+                    title="Feature"/>
+                <testing_validation
+                    jcr:created="{Date}2021-05-13T15:20:00.178+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-05-15T11:42:05.062+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/testing-validation"
+                    title="fdnn">
+                    <list jcr:primaryType="nt:unstructured">
+                        <item0 jcr:primaryType="nt:unstructured"/>
+                        <item1 jcr:primaryType="nt:unstructured"/>
+                    </list>
+                </testing_validation>
+                <author
+                    jcr:created="{Date}2021-05-15T12:42:11.646+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-05-15T17:46:59.155+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/author"
+                    email="karukola33@gmail.com"
+                    fname="AEM "
+                    lname="Rao"
+                    pNum="+91 703 601 5386"
+                    professor="true">
+                    <booksList jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            bookTitle="Java"/>
+                    </booksList>
+                    <books jcr:primaryType="nt:unstructured">
+                        <item0
+                            jcr:primaryType="nt:unstructured"
+                            books="AEM "/>
+                        <item1
+                            jcr:primaryType="nt:unstructured"
+                            books="C"/>
+                        <item2
+                            jcr:primaryType="nt:unstructured"
+                            books="DBMS"/>
+                        <item3
+                            jcr:primaryType="nt:unstructured"
+                            books="ZOI"/>
+                        <item4
+                            jcr:primaryType="nt:unstructured"
+                            books="FSKJN SJDA"/>
+                    </books>
+                </author>
+            </responsivegrid_360545440>
+        </root>
+    </jcr:content>
+</jcr:root>

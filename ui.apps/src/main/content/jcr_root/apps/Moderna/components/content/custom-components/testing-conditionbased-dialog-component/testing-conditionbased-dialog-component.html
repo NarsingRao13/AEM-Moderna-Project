@@ -1,0 +1,48 @@
+<!-- <sly data-sly-use.ob = "com.moderna.core.models.Testing"></sly>
+ -->
+<sly data-sly-use.obj = "com.moderna.core.models.HeaderPage"></sly>
+
+<h1>Hello</h1>
+<sly data-sly-test.hasType="${properties.featureType}">
+<pre>This Feature is a: ${properties.featureType}</pre>
+<pre data-sly-test="${properties.featureType == 'feature-1' && properties.title}">Title is: ${properties.title}</pre>
+<pre data-sly-test="${properties.featureType == 'feature-2' && properties.number}">number is: ${properties.number}</pre>
+</sy>
+
+<!--
+<h1>${ob.Path}</h1>
+<ul data-sly-list.childObj="${ob.datafromModelList}">
+   <li> ${childObj.name} === <span>Path: ${childObj.path}</span>===
+		haschild : ${childObj.hasChild} === level:${childObj.depth}
+   </li>
+   <ul data-sly-list.subChild="${childObj.path}">
+      <li> entering sub: ${subChild.title}</li>
+      </li>
+   </ul>
+</ul>
+<h1>${currentPage.parent.Name}</h1>
+<ul data-sly-list.child="${currentPage.parent.listChildren}">
+   <li> entering: ${child.title}</li>
+   <ul data-sly-list.child1="${child.listChildren}">
+      <li> entering sub: ${child1.title}</li>
+      </li>
+   </ul>
+</ul>
+-->
+
+
+
+
+<ul data-sly-list.child="${obj.parentPage.listChildren}">
+   <li> entering: ${child.title} , path: ${child.path}, child: ${child.hasChild}</li>
+   <ul data-sly-list.child1="${child.listChildren}">
+      <li> entering sub: ${child1.title}</li>
+      </li>
+      <ul data-sly-list.child2="${child1.listChildren}">
+         <li> entering sub: ${child2.title}</li>
+         </li>
+      </ul>
+   </ul>
+</ul>
+
+

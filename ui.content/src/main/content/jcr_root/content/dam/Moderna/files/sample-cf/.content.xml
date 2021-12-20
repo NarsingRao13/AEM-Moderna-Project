@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="54f0f72f-0784-40b8-996f-1db842c5b26c">
+    <jcr:content
+        cq:name="sample-cf"
+        cq:parentPath="/content/dam/Moderna/files"
+        jcr:description="This is for demo"
+        jcr:lastModified="{Date}2021-05-04T14:40:10.228+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Sample CF"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-05-04T14:40:10.229+05:30">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members
+                jcr:primaryType="nt:unstructured"
+                sling:resources="[/content/dam/collections/e/euxQHYrzR8z7dlbkNHHE/lightbox]">
+                <lightbox
+                    jcr:primaryType="nt:unstructured"
+                    sling:resource="/content/dam/collections/e/euxQHYrzR8z7dlbkNHHE/lightbox"/>
+            </sling:members>
+        </associated>
+        <comments
+            jcr:created="{Date}2021-05-03T17:33:17.372+05:30"
+            jcr:createdBy="admin"
+            jcr:lastModified="{Date}2021-05-03T17:36:19.048+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[mix:lastModified]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/comments/components/collection">
+            <this_is_for_techouts
+                jcr:created="{Date}2021-05-03T17:33:18.474+05:30"
+                jcr:createdBy="admin"
+                jcr:description="This is for Techouts"
+                jcr:lastModified="{Date}2021-05-03T17:33:18.474+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[mix:lastModified]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/comments/components/comment"
+                author="admin"/>
+            <_content-authorspleaseensurethedataisvalid
+                jcr:created="{Date}2021-05-03T17:34:50.842+05:30"
+                jcr:createdBy="admin"
+                jcr:description="\[~content-authors]Please ensure the data is valid"
+                jcr:lastModified="{Date}2021-05-03T17:34:50.842+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[mix:lastModified]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/comments/components/comment"
+                author="admin"/>
+            <please_ensure_thecurrectversion
+                jcr:created="{Date}2021-05-03T17:36:19.048+05:30"
+                jcr:createdBy="admin"
+                jcr:description="Please ensure the currect version"
+                jcr:lastModified="{Date}2021-05-03T17:36:19.048+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:mixinTypes="[mix:lastModified]"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/comments/components/comment"
+                annotationData="\{&quot;texts&quot;:[&quot;Please ensure the currect version&quot;],&quot;variation&quot;:&quot;master&quot;,&quot;element&quot;:&quot;description&quot;}"
+                author="admin"/>
+        </comments>
+        <data
+            cq:model="/conf/Moderna/settings/dam/cfm/models/sample-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                data_time="{Date}2021-05-04T17:23:00.000+05:30"
+                data_time_x0040_LastModified="{Date}2021-05-04T14:40:09.947+05:30"
+                description="&lt;p>This is about&amp;nbsp;&lt;b>Techouts&lt;/b> &lt;span class=&quot;rte-annotation&quot; data-annotation=&quot;please_ensure_thecurrectversion&quot;>company&lt;/span>&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2021-05-04T14:40:09.946+05:30"
+                image="/content/dam/Moderna/images/about.jpg"
+                image_x0040_LastModified="{Date}2021-05-04T14:40:09.948+05:30"
+                list="Techouts"
+                list_x0040_LastModified="{Date}2021-05-04T14:40:09.947+05:30"
+                mytitle="Techouts"
+                mytitle_x0040_LastModified="{Date}2021-05-04T14:40:09.943+05:30"/>
+            <google
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                data_time="{Date}2021-05-01T17:23:00.000+05:30"
+                data_time_x0040_LastModified="{Date}2021-05-03T17:27:35.375+05:30"
+                description="&lt;p>This is about&amp;nbsp;&lt;b>Google&lt;/b> company&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2021-05-03T17:27:35.372+05:30"
+                list="Google"
+                list_x0040_LastModified="{Date}2021-05-03T17:27:35.377+05:30"
+                mytitle="Google"
+                mytitle_x0040_LastModified="{Date}2021-05-03T17:27:35.370+05:30"/>
+            <open_text
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                data_time="{Date}2021-05-18T17:23:00.000+05:30"
+                data_time_x0040_LastModified="{Date}2021-05-03T17:28:25.259+05:30"
+                description="&lt;p>This is about &lt;b>Open Text&lt;/b> company&lt;/p>&#xa;"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2021-05-03T17:28:25.241+05:30"
+                list="Open Text"
+                list_x0040_LastModified="{Date}2021-05-03T17:28:25.260+05:30"
+                mytitle="Open Text"
+                mytitle_x0040_LastModified="{Date}2021-05-03T17:28:25.239+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <google
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Google"
+                    name="google">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[mytitle:99b31625-c89f-4aaf-922b-46217fb23ea8,description:99b31625-c89f-4aaf-922b-46217fb23ea8,data_time:99b31625-c89f-4aaf-922b-46217fb23ea8,list:99b31625-c89f-4aaf-922b-46217fb23ea8]"/>
+                </google>
+                <open_text
+                    jcr:description=""
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Open Text"
+                    name="open_text">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[mytitle:d3f3f15c-aee7-4df2-a6e5-3f863e38d91b,description:d3f3f15c-aee7-4df2-a6e5-3f863e38d91b,data_time:d3f3f15c-aee7-4df2-a6e5-3f863e38d91b,list:d3f3f15c-aee7-4df2-a6e5-3f863e38d91b]"/>
+                </open_text>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

@@ -1,0 +1,18 @@
+
+
+<sly data-sly-use.obj = "com.moderna.core.models.Feature_1"></sly>
+<div class="row" data-aos="fade-up">
+   <div class="col-md-5">
+      <img src="${obj.featureImage}" class="img-fluid" alt="">
+   </div>
+   <div class="col-md-7 ${obj.contentStyle}">
+      <h3>${obj.title}</h3>
+      <p class = "${obj.subTitleStyle}">
+         ${obj.subTitle}
+      </p>
+      <ul data-sly-list.l = "${obj.bulletPoints}">
+         <li><i class="bi bi-check"></i> ${l.listData}</li>
+      </ul>
+   </div>
+</div>
+

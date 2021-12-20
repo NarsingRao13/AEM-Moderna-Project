@@ -1,0 +1,24 @@
+
+<sly data-sly-use.clientLib1="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib1.css @ categories='Moderna.site'}"/>
+<sly data-sly-use.clientLib2="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib2.css @ categories='Moderna.base'}"/>
+
+<!--/* Include Context Hub */-->
+<sly data-sly-resource="${'contexthub' @ resourceType='granite/contexthub/components/contexthub'}"/>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Moderna Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+    <!-- Favicons -->
+  <link href="/content/dam/Moderna/images/favicon.png" rel="icon">
+  <link href="/content/dam/Moderna/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+</head>

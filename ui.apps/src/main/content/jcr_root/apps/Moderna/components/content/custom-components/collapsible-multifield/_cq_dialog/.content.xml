@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Collapsible Dialog"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <tab
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/tabs">
+                <items jcr:primaryType="nt:unstructured">
+                    <first_x0020_tab
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="multi"
+                        sling:resourceType="granite/ui/components/foundation/section">
+                        <layout
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                            margin="{Boolean}true">
+                            <items jcr:primaryType="nt:unstructured">
+                                <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                    <multifileld
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                        composite="{Boolean}true"
+                                        fieldLabel="Composite Multifield">
+                                        <field
+                                            jcr:primaryType="nt:unstructured"
+                                            jcr:title="Click to expand"
+                                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                                            fieldLabel="Product Container"
+                                            name="./product">
+                                            <layout
+                                                jcr:primaryType="nt:unstructured"
+                                                sling:resourceType="granite/ui/components/coral/foundation/layouts/collapsible"/>
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <multi-text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Multi Text"
+                                                    name="./multitext"/>
+                                                <multi-num
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                                    fieldLabel="Multi Num"
+                                                    name="./multinum"/>
+                                                <Copy_x0020_of_x0020_Copy_x0020_of_x0020_multi-text
+                                                    jcr:primaryType="nt:unstructured"
+                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                    fieldLabel="Multi Text"
+                                                    name="./multitext"/>
+                                            </items>
+                                        </field>
+                                    </multifileld>
+                                </column>
+                            </items>
+                        </layout>
+                    </first_x0020_tab>
+                    <second_x0020_tab
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="Second"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <multifileld
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                                        composite="{Boolean}true"
+                                        fieldLabel="Composite Multifield">
+                                        <field
+                                            jcr:primaryType="nt:unstructured"
+                                            jcr:title="Click to expand"
+                                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                                            fieldLabel="Product Container"
+                                            name="./product">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <content
+                                                    jcr:primaryType="nt:unstructured"
+                                                    jcr:title="Click here to add"
+                                                    sling:resourceType="granite/ui/components/foundation/container">
+                                                    <layout
+                                                        jcr:primaryType="nt:unstructured"
+                                                        sling:resourceType="granite/ui/components/foundation/layouts/collapsible"/>
+                                                    <items jcr:primaryType="nt:unstructured">
+                                                        <content
+                                                            jcr:primaryType="nt:unstructured"
+                                                            sling:resourceType="granite/ui/components/foundation/container">
+                                                            <items jcr:primaryType="nt:unstructured">
+                                                                <multi-text
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                                                    fieldLabel="Multi Text"
+                                                                    name="./multitext"/>
+                                                                <multi-num
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                                                                    fieldLabel="Multi Num"
+                                                                    name="./multinum"/>
+                                                                <multi-check
+                                                                    jcr:primaryType="nt:unstructured"
+                                                                    sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                                                    name="./multicheck"
+                                                                    text="Multi Check"
+                                                                    value="{Boolean}true"/>
+                                                            </items>
+                                                        </content>
+                                                    </items>
+                                                </content>
+                                            </items>
+                                        </field>
+                                    </multifileld>
+                                </items>
+                            </column>
+                        </items>
+                    </second_x0020_tab>
+                </items>
+            </tab>
+        </items>
+    </content>
+</jcr:root>

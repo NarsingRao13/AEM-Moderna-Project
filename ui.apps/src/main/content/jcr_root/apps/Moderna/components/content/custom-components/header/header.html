@@ -1,0 +1,35 @@
+
+
+<sly data-sly-use.ob = "com.moderna.core.models.HeaderModel"></sly>
+<sly data-sly-use.obj = "com.moderna.core.models.HeaderPage"></sly>
+<!-- ======= Header ======= -->
+<header id="header" class="fixed-top d-flex align-items-center header-transparent">
+   <div class="container d-flex justify-content-between align-items-center">
+      <div class="logo">
+         <h1 class="text-light"><a href="#"><span>Moderna</span></a></h1>
+         <!-- <h1 class="text-light"><a href="index.html"><span>${ob.logoTitle}</span></a></h1>-->
+         <!-- Uncomment below if you prefer to use an image logo -->
+         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+      <nav id="navbar" class="navbar" >
+         <ul data-sly-list.child="${obj.parentPage.listChildren}">
+            <li data-sly-test="${!child.listChildren}"><a class="${childList.first?'active ' : ''}" href="${child.path}.html">${child.title}</a></li>
+            <li data-sly-test="${child.listChildren}" class="dropdown">
+               <a href="#"><span>${child.title}</span> <i class="bi bi-chevron-down"></i></a>
+               <ul data-sly-list.child1="${child.listChildren}">
+                  <li data-sly-test = "${!child1.listChildren}"><a href="${child1.path}.html">${child1.title}</a></li>
+                  <li data-sly-test = "${child1.listChildren}" class="dropdown">
+                     <a href="#"><span>${child1.title}</span> <i class="bi bi-chevron-right"></i></a>
+                     <ul data-sly-list.child2="${child1.listChildren}">
+                        <li><a href="${child2.path}.html">${child2.title}</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+      </nav>
+      <!-- .navbar -->
+   </div>
+</header>
+<!-- End Header -->
+

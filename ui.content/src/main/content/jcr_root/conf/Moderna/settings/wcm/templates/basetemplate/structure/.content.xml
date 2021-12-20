@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:deviceGroups="[/etc/mobile/groups/responsive]"
+        cq:lastModified="{Date}2021-05-04T19:09:07.460+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/Moderna/settings/wcm/templates/basetemplate"
+        jcr:primaryType="cq:PageContent"
+        sling:resourceType="Moderna/components/structure/basepage">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:lastModified="{Date}2021-04-28T09:50:51.612+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <header
+                    jcr:created="{Date}2021-05-04T19:08:40.200+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-05-04T19:09:07.426+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/header"
+                    logoTitle="Moderna"/>
+            </responsivegrid>
+            <responsivegrid_360545440
+                jcr:created="{Date}2021-04-21T13:22:34.253+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-27T18:51:56.571+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid"
+                editable="{Boolean}true"/>
+            <responsivegrid_917678249
+                jcr:created="{Date}2021-04-21T13:22:45.662+05:30"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-04-21T18:31:15.117+05:30"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <footer
+                    jcr:created="{Date}2021-04-21T18:31:29.732+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2021-04-28T14:15:10.743+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="Moderna/components/content/custom-components/footer"
+                    aboutDescription="Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus."
+                    aboutTitle="About Moderna"
+                    addressInput1="A108 Adam Street"
+                    addressInput2="New York, NY 535022"
+                    addressInput3="United States"
+                    contactEmailId="info@example.com"
+                    contactPhnNum="+1 5589 55488 55"
+                    contactTitle="Contact Us"
+                    copyrightTitle="Copyright"
+                    copyrightTitleLast="All Rights Reserved"
+                    copyrightTitleMiddel="Moderna"
+                    creditsInfo="Designed by"
+                    creditsTitleLink="BootstrapMade"
+                    link1="Home"
+                    link2="About us"
+                    link3="Services"
+                    link4="Terms of service"
+                    link5="Privacy policy"
+                    linksTitle="Useful Links"
+                    newsletterDescription="Tamen quem nulla quae legam multos aute sint culpa legam noster magna"
+                    newsletterTitle="Our Newsletter"
+                    service1="Web Design"
+                    service2="Web Development"
+                    service3="Product Management"
+                    service4="Marketing"
+                    service5="Graphic Design"
+                    serviceTitle="Our Services"/>
+            </responsivegrid_917678249>
+        </root>
+        <cq:responsive jcr:primaryType="nt:unstructured">
+            <breakpoints jcr:primaryType="nt:unstructured">
+                <phone
+                    jcr:primaryType="nt:unstructured"
+                    title="Smaller Screen"
+                    width="{Long}768"/>
+                <tablet
+                    jcr:primaryType="nt:unstructured"
+                    title="Tablet"
+                    width="{Long}1200"/>
+            </breakpoints>
+        </cq:responsive>
+    </jcr:content>
+</jcr:root>

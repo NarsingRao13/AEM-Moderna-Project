@@ -1,0 +1,22 @@
+<sly data-sly-use.List = "com.moderna.core.models.ServiceCardData"></sly>
+<style>
+	.col-md-5{
+        font-size:50px;}
+</style>
+<h1>start</h1>
+<div>
+	<div data-sly-test.if="${List.selectDelay == '0'}">Hello</dv>
+    <div data-sly-test.if1="${List.selectDelay == '100'}">Heyy</dv>
+
+
+<div>rao
+<sly data-sly-test.if="${List.selectDelay == '0'}"><h1>test Zero = ${List.selectDelay}</h1></sly>
+
+<sly data-sly-test.elseif1="${List.selectDelay != '0'}"><h1>test Not Zero = ${List.selectDelay}</h1></sly>
+</div>
+
+
+
+
+</div>
+<h1>end</h1>

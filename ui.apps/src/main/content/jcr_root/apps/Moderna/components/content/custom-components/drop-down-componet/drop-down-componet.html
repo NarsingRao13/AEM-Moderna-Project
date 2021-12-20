@@ -1,0 +1,19 @@
+
+
+<sly data-sly-use.obj1 = "com.moderna.core.models.DropDownModel"></sly>
+
+<li class="dropdown"><a href="#"><span>${obj1.dropDownTitle}</span> <i class="bi bi-chevron-down"></i></a>
+
+   <ul data-sly-list.dl = "${obj1.dropDownList}">
+
+      <sly data-sly-test.if = "${dl.navDropDownType == 'normal'}">
+         <li><a href="${dl.navDropDownPath}.html">${dl.navDropDownTitle}</a></li>
+      </sly>
+		<sly data-sly-test.if = "${dl.navDropDownType == 'deepDropDown'}">
+         <sly data-sly-resource = "${'deepDropdown' @resourceType='Moderna/components/content/custom-components/deep-drop-down-componet'}">
+         </sly>
+     
+
+   </ul>
+</li>
+

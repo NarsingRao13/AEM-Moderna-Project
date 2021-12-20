@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="d9d4c338-f89a-4141-96aa-ad459a19984d">
+    <jcr:content
+        cq:name="fragment1"
+        cq:parentPath="/content/dam/Moderna/files"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-05-10T13:20:36.267+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Fragment1"
+        contentFragment="{Boolean}true">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members
+                jcr:primaryType="nt:unstructured"
+                sling:resources="[/content/dam/collections/e/euxQHYrzR8z7dlbkNHHE/lightbox]">
+                <lightbox
+                    jcr:primaryType="nt:unstructured"
+                    sling:resource="/content/dam/collections/e/euxQHYrzR8z7dlbkNHHE/lightbox"/>
+            </sling:members>
+        </associated>
+        <metadata
+            dam:extracted="{Date}2021-05-10T13:20:33.131+05:30"
+            dam:sha1="63eadfa1ea4b308b1f43a91c5048d14ce62ddd6d"
+            dam:size="{Long}60"
+            dc:format="text/html"
+            dc:modified="{Date}2021-05-10T13:20:36.267+05:30"
+            jcr:lastModified="{Date}2021-05-10T13:20:36.267+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            jcr:description="A simple fragment, containing one single element and no predefined variations"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Simple Fragment"
+            precreateElements="{Boolean}true"
+            version="{Long}2">
+            <elements jcr:primaryType="nt:unstructured">
+                <main
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Main"
+                    defaultContent=""
+                    name="main"/>
+            </elements>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

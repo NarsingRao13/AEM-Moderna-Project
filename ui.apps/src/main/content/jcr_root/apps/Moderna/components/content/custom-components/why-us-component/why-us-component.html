@@ -1,0 +1,26 @@
+
+
+<sly data-sly-use.obj = "com.moderna.core.models.WhyUsModel"></sly>
+<!-- ======= Why Us Section ======= -->
+<section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-6 video-box">
+            <img src="${obj.bgImage}" class="img-fluid" alt="">
+            <a href="${obj.youtubeLink}" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+         </div>
+         <div class="col-lg-6 d-flex flex-column justify-content-center p-5" data-sly-list.List = "${obj.whyUsList}">
+            <div class="icon-box">
+             <!--  <div class="icon"><i class="${List.icon}"</i></div>-->
+				<div class="icon">
+					<span class="iconify" data-icon="bx-bx-fingerprint" data-inline="false"></span>
+				</div>
+               <h4 class="title"><a href="">${List.title}</a></h4>
+               <p class="description">${List.description}</p>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<!-- End Why Us Section -->
+

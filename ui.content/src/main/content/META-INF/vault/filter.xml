@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/Moderna" mode="merge"/>
+    <filter root="/content/Moderna" mode="merge"/>
+    <filter root="/content/dam/Moderna" mode="merge"/>
+    <filter root="/content/experience-fragments/Moderna" mode="merge"/>
+</workspaceFilter>

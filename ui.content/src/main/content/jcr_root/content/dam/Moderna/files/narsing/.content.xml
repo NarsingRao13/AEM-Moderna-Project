@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="621158b9-8812-4877-a05d-6f0f2aee5d7d">
+    <jcr:content
+        cq:name="narsing"
+        cq:parentPath="/content/dam/Moderna/files"
+        jcr:description="Narsing Fragment Created"
+        jcr:lastModified="{Date}2021-05-25T15:41:47.692+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="narsing Fragement"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-05-25T15:41:47.692+05:30">
+        <data
+            cq:model="/conf/Moderna/settings/dam/cfm/models/sample-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                data_time_x0040_LastModified="{Date}2021-05-25T15:41:47.642+05:30"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2021-05-25T15:41:47.642+05:30"
+                image_x0040_LastModified="{Date}2021-05-25T15:41:47.642+05:30"
+                list="Techouts"
+                list_x0040_LastModified="{Date}2021-05-25T15:41:47.642+05:30"
+                mytitle_x0040_LastModified="{Date}2021-05-25T15:41:47.632+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

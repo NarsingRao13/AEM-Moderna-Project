@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="b5dd3b72-40d1-4106-83b0-8f354b0aa3fe">
+    <jcr:content
+        cq:name="comments-6.jpg"
+        cq:parentPath="/content/dam/Moderna/images/blog"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2021-05-10T13:20:52.878+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2021-05-10T13:20:52.698+05:30"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="yes"
+            dam:sha1="2c68d52f427b382c30df3c5c06a447df3db49d48"
+            dam:size="{Long}17383"
+            dam:TimeCreated="165005+0530"
+            dc:date="{Long}[20200122]"
+            dc:date_xmpArrayType="rdf:Bag"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2021-05-10T13:20:45.793+05:30"
+            exif:DateTimeOriginal="{Date}2020-01-22T16:50:05.000+05:30"
+            jcr:lastModified="{Date}2021-05-10T13:20:45.792+05:30"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            photoshop:DateCreated="{Date}2020-01-22T16:50:05.000+05:30"
+            tiff:ImageLength="{Long}200"
+            tiff:ImageWidth="{Long}200"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

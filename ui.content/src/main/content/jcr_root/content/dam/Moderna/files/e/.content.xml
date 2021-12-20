@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="89e53150-bde3-431f-adb2-84b54da98a93">
+    <jcr:content
+        cq:name="e"
+        cq:parentPath="/content/dam/Moderna/files"
+        dam:assetState="processed"
+        jcr:description=""
+        jcr:lastModified="{Date}2021-05-24T11:44:06.744+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Example1"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-05-24T11:44:06.744+05:30">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members jcr:primaryType="nt:unstructured"/>
+        </associated>
+        <metadata
+            dam:extracted="{Date}2021-05-24T11:36:23.633+05:30"
+            dam:sha1="4a796ed4ceea9602fc89fd1b688c8098055a320b"
+            dam:size="{Long}94"
+            dc:format="text/html"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            jcr:description="A simple fragment, containing one single element and no predefined variations"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Simple Fragment"
+            precreateElements="{Boolean}true"
+            version="{Long}2">
+            <elements jcr:primaryType="nt:unstructured">
+                <main
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Main"
+                    defaultContent=""
+                    name="main"/>
+            </elements>
+            <variations jcr:primaryType="nt:unstructured">
+                <var1
+                    jcr:description=""
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Var1"
+                    name="var1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[main:f0d1b83d-0d59-4a50-a7dd-12af2c66342e]"/>
+                </var1>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

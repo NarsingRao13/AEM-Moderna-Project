@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="About us dialog"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <items
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container"
+                margin="{Boolean}true">
+                <items jcr:primaryType="nt:unstructured">
+                    <columns
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns"
+                        margin="{Boolean}true">
+                        <items jcr:primaryType="nt:unstructured">
+                            <column
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/container">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <select-delay
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        fieldDescription="Select Size"
+                                        fieldLabel="Select Delay"
+                                        name="./selectDelay">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <def
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Delay"/>
+                                            <_x0030_
+                                                jcr:primaryType="nt:unstructured"
+                                                text="0"
+                                                value="0"/>
+                                            <_x0031_00
+                                                jcr:primaryType="nt:unstructured"
+                                                text="100"
+                                                value="100"/>
+                                            <_x0032_00
+                                                jcr:primaryType="nt:unstructured"
+                                                text="200"/>
+                                        </items>
+                                    </select-delay>
+                                    <select-iconbg-color
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        fieldDescription="Select Size"
+                                        fieldLabel="Select Service Icon Background Color"
+                                        name="./selectIconBgColor">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <def
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Color"
+                                                value=""/>
+                                            <pink
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Pink"
+                                                value="pink"/>
+                                            <cyan
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Cyan"
+                                                value="cyan"/>
+                                            <green
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Green"
+                                                value="green"/>
+                                            <blue
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Blue"
+                                                value="blue"/>
+                                        </items>
+                                    </select-iconbg-color>
+                                    <select-service-icon
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                        fieldDescription="Select Size"
+                                        fieldLabel="Select Service ICon"
+                                        name="./selectServiceIcon">
+                                        <items jcr:primaryType="nt:unstructured">
+                                            <def
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Icon"
+                                                value=""/>
+                                            <bx_x0020_bxl-dribbble
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Dribbble"
+                                                value="bx bxl-dribbble"/>
+                                            <bx_x0020_bx-file
+                                                jcr:primaryType="nt:unstructured"
+                                                text="File"
+                                                value="bx bx-file"/>
+                                            <bx_x0020_bx-tachometer
+                                                jcr:primaryType="nt:unstructured"
+                                                text="Tachometer"
+                                                value="bx bx-tachometer"/>
+                                            <bx_x0020_bx-world
+                                                jcr:primaryType="nt:unstructured"
+                                                text="World"
+                                                value="bx bx-world"/>
+                                        </items>
+                                    </select-service-icon>
+                                    <service-title
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                        fieldDescription="Can not be empty"
+                                        fieldLabel="Service Title"
+                                        name="./serviceTitle"/>
+                                    <service-description
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                                        fieldDescription="Can not be empty"
+                                        fieldLabel="Service Description"
+                                        name="./serviceDescription"/>
+                                </items>
+                            </column>
+                        </items>
+                    </columns>
+                </items>
+            </items>
+        </items>
+    </content>
+</jcr:root>

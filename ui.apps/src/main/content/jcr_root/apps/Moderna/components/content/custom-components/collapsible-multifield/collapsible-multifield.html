@@ -1,0 +1,9 @@
+<sly data-sly-use.ob = "com.moderna.core.models.CollapsableMultiFieldModel"></sly>
+<h1>This is collapsible multifield demo</h1>
+<div data-sly-list.l = "${ob.product}">
+	<p><b>${lList.index}</b></p>
+	<p>Multitext: ${l.multitext}</p>
+	<p>Multinum: ${l.multinum}</p>
+	<p>Multicheck: ${l.multicheck}</p>
+</div>
+<h1>End</h1>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="01917067-10b8-43cf-9d7e-cdaed3eb5b71">
+    <jcr:content
+        cq:name="narsing-2"
+        cq:parentPath="/content/dam/Moderna/files"
+        jcr:description="Narsing Fragment Created"
+        jcr:lastModified="{Date}2021-05-25T15:52:10.701+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="narsing Fragement"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2021-05-25T15:52:10.701+05:30">
+        <data
+            cq:model="/conf/Moderna/settings/dam/cfm/models/sample-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                data_time="{Date}2021-05-25T15:51:19.000+05:30"
+                data_time_x0040_LastModified="{Date}2021-05-25T15:52:10.656+05:30"
+                description="Hello! Narsing. Welcome to techouts"
+                description_x0040_ContentType="text/plain"
+                description_x0040_LastModified="{Date}2021-05-25T15:52:10.656+05:30"
+                image="/content/dam/Moderna/files/narsing-1"
+                image_x0040_ContentType="text/plain"
+                image_x0040_LastModified="{Date}2021-05-25T15:52:10.657+05:30"
+                list="Open Text"
+                list_x0040_LastModified="{Date}2021-05-25T15:52:10.656+05:30"
+                mytitle="Narsing Rao"
+                mytitle_x0040_ContentType="text/plain"
+                mytitle_x0040_LastModified="{Date}2021-05-25T15:52:10.655+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

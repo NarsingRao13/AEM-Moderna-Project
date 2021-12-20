@@ -1,0 +1,15 @@
+Node Name: jcr:content
+	jcr:primaryType = cq:PageContent
+	
+Node Name: root
+	jcr:primaryType = nt:unstructured
+	sling:resourceType = wcm/foundation/components/responsivegrid
+	
+Node Name: responsivegrid_360545440
+	jcr:primaryType = nt:unstructured
+	jcr:createdBy = admin
+	jcr:lastModifiedBy = admin
+	jcr:created = 2021-04-21T13:22:34.253+05:30
+	jcr:lastModified = 2021-04-21T13:23:42.492+05:30
+	sling:resourceType = wcm/foundation/components/responsivegrid
+	

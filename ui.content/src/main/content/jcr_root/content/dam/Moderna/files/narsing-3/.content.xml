@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="01d0e264-a7c8-4efc-863a-582baab97d5b">
+    <jcr:content
+        jcr:description="Narsing Fragment Created"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="narsing Fragement"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/Moderna/settings/dam/cfm/models/sample-cf-model"
+            jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[cq:Taggable]"
+                jcr:primaryType="nt:unstructured"
+                data_time="{Date}2021-05-25T15:55:39.401+05:30"
+                data_time_x0040_LastModified="{Date}2021-05-25T15:55:39.402+05:30"
+                description="Hello! Narsing. Welcome to techouts"
+                description_x0040_ContentType="text/plain"
+                description_x0040_LastModified="{Date}2021-05-25T15:55:39.401+05:30"
+                image="/content/dam/Moderna"
+                image_x0040_ContentType="text/plain"
+                image_x0040_LastModified="{Date}2021-05-25T15:55:39.402+05:30"
+                list="Open Text"
+                list_x0040_LastModified="{Date}2021-05-25T15:55:39.402+05:30"
+                mytitle="Narsing Rao"
+                mytitle_x0040_ContentType="text/plain"
+                mytitle_x0040_LastModified="{Date}2021-05-25T15:55:39.401+05:30"/>
+        </data>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

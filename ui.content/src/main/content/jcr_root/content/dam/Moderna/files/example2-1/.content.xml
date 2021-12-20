@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="f840ebba-f90a-419d-95c1-189af7004755">
+    <jcr:content
+        dam:assetState="unProcessed"
+        jcr:lastModified="{Date}2021-05-25T11:22:15.137+05:30"
+        jcr:lastModifiedBy="aem-trainee-nr"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Example2"
+        contentFragment="{Boolean}true">
+        <associated
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="sling/collection">
+            <sling:members jcr:primaryType="nt:unstructured"/>
+        </associated>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model
+            jcr:description="A simple fragment, containing one single element and no predefined variations"
+            jcr:primaryType="nt:unstructured"
+            jcr:title="Simple Fragment"
+            precreateElements="{Boolean}true"
+            version="{Long}2">
+            <elements jcr:primaryType="nt:unstructured">
+                <main
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Main"
+                    defaultContent=""
+                    name="main"/>
+            </elements>
+            <variations jcr:primaryType="nt:unstructured">
+                <var1
+                    jcr:description=""
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Var1"
+                    name="var1">
+                    <properties
+                        jcr:primaryType="nt:unstructured"
+                        synchronizeWithVersion="[main:f0d1b83d-0d59-4a50-a7dd-12af2c66342e]"/>
+                </var1>
+                <var2
+                    jcr:description=""
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Var"
+                    name="var2"/>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
